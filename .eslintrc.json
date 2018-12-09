@@ -1,0 +1,21 @@
+{
+  "extends": ["@callstack"],
+  "rules": {
+    "flowtype/no-weak-types": false,
+    "react/react-in-jsx-scope": false,
+    "import/prefer-default-export": false,
+    "import/extensions": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/no-unresolved": [2, { "ignore": ["electron"] }],
+    "linebreak-style": 0,
+    "react/prefer-stateless-function": 0
+  },
+  "settings": {
+    "import/resolver": {
+      "babel-module": {}
+    }
+  },
+  "globals": {
+    "google": true
+  }
+}
